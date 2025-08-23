@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: .87rem;
+}
+body{
+    background-color: #f4f6f8;
+    font-family: "Lato", sans-serif;
+    color: #222;
+    line-height: 1.6;
+}
+.container{
+        max-width: 800px;
+        height: 1120px;
+        margin: 40px auto;
+        padding: 40px 40px 32px 40px;
+        background-color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e0e0e0;
+        overflow: hidden;
+        position: relative;
+        box-sizing: border-box;
+}
+
+@media print {
+    body {
+        background: #fff !important;
+    }
+    .container {
+        box-shadow: none !important;
+        border: none !important;
+        margin: 0 auto !important;
+        page-break-after: avoid;
+        page-break-before: avoid;
+        page-break-inside: avoid;
+        height: 1120px !important;
+        max-height: 1120px !important;
+        overflow: hidden !important;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
+h2, h3 {
+    color: #1976d2;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+h2 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+h3 {
+    font-size: 1.15rem;
+    color: #1976d2;
+}
+section > h3 {
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1976d2;
+}
+p {
+    color: #444;
+    font-size: 1.05rem;
+    margin-bottom: 0.6rem;
+}
+
+.experience h4 {
+    font-size: 1.08rem;
+    color: #222;
+    font-weight: 600;
+}
+.experience ul {
+    margin-left: 1.2rem;
+}
+
+.skills ul {
+    margin-left: 1.2rem;
+}
+.skills li {
+    padding: 0px 10px;
+    font-size: 0.98rem;
+}
+.education {
+    font-size: 1.03rem;
+}
+.education > b {
+    display: block;
+}
+ul {
+    margin-left: 1.2rem;
+}
